@@ -18,8 +18,9 @@ The key challenges are:
 The algorithm presents significant lower variance compared to the fibonacci distribution, at a cost of computation time.
 Pre-computed results are available in the data folder.
 
-Results with N=100:
+
+Result with N=100. Red points represents natural_tammes, and black points fibonacci.
 ![results-100](visualisations/output100.gif)
 
-Results with N=1000:
+Result with N=1000. Red points represents natural_tammes, and black points fibonacci.
 ![results-100](visualisations/output1000.gif)
