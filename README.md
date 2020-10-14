@@ -11,10 +11,15 @@ This python code a simple yet efficient solution to the problem:
 
 The key challenges are:
 1. __Stopping at the right time.__ Indeed, when initializing the points randomly, we sometimes observe chaotic behavior followed by stabilization. It could be that monitoring the nodes movement is not the correct approach. 
-2. __Computation times.__ This code is not optimized and could parallel computations could improve the computation times. However, even with computational power its current complexity does nto scale well with *n*.
+2. __Computation times.__ This code is not optimized and parallel computations could improve the computation times. However, even with computational power its current complexity does not scale well with *n*.
 
 # Results
 
 The algorithm presents significant lower variance compared to the fibonacci distribution, at a cost of computation time.
 Pre-computed results are available in the data folder.
 
+Results with N=100:
+![results-100](visualisations/output100.gif)
+
+Results with N=1000:
+![results-100](visualisations/output1000.gif)
