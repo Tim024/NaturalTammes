@@ -18,6 +18,8 @@ The key challenges are:
 The algorithm presents significant lower variance compared to the fibonacci distribution, at a cost of computation time.
 Pre-computed results are available in the data folder.
 
+Natural Tammes algorithm in action: each point is pushed away until we reach complete chaos. We stop just before.
+![results-100](visualisations/natural_tammes.gif)
 
 Result with N=100. Red points represents natural_tammes, and black points fibonacci.
 ![results-100](visualisations/output100.gif)
